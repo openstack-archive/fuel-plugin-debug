@@ -1,0 +1,57 @@
+attributes:
+  yaml_additional_config:
+    type: "textarea"     
+    validate: "yaml"   
+    weight: 30
+    value: |  
+      vcenter_hash:
+        debug: true
+        verbose: true
+      swift_hash:
+        debug: true
+        verbose: true
+      sahara_hash:
+        debug: true
+        verbose: true
+      mongo:
+        debug: true
+        verbose: true
+      compute:
+        debug: true
+        verbose: true
+      rabbit_hash:
+        debug: true
+        verbose: true
+      openstack_network:
+        debug: true
+        verbose: true
+      openstack_controller:
+        debug: true
+        verbose: true
+      cinder_hash:
+        debug: true
+        verbose: true
+      murano_hash:
+        debug: true
+        verbose: true
+      syslog_hash:
+        debug: true
+        verbose: true
+      keystone:
+        debug: true
+        verbose: true
+      horizon:
+        debug: true
+        verbose: true
+      heat:
+        debug: true
+        verbose: true
+      glance:
+        debug: true
+        verbose: true
+      haproxy:
+        debug: true
+        verbose: true
+    label: "Additional config"
+    description: "Put here a valid yaml describes services to debug"
+

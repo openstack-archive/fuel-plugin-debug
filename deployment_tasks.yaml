@@ -1,6 +1,6 @@
  - id: debug_plugin-pre-deployment-override
    type: puppet
-   groups: [primary-controller, controller, compute, cinder]
+   groups: [primary-controller, controller, compute, cinder, primary-mongo, mongo]
    required_for: [globals]
    requires: [hiera]
    parameters:

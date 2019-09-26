@@ -1,9 +1,0 @@
- - id: debug_plugin-pre-deployment-override
-   type: puppet
-   groups: [primary-controller, controller, compute, cinder, primary-mongo, mongo]
-   required_for: [globals]
-   requires: [hiera]
-   parameters:
-     puppet_manifest: run_override.pp
-     puppet_modules: "."
-     timeout: 1800
